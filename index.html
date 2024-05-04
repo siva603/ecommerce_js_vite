@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    
+    <meta name="description" content="This is  demo ecommerce project. It includes server html files and  css file. And also it is resposive website">
+
+    <meta name="keywords" content="home,about,products,contact,addToCart">
+
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Vite App</title>
+  </head>
+  <body>
+
+    <div class="loader-container">
+
+      <svg viewBox="0 0 1000 500">
+          
+          <text x="50%" y="50%"  text-anchor="middle" class="text-body">
+              SIVAPRASAD.
+          </text>
+      
+      </svg>
+
+  </div>
+    
+    <div class="visible">
+      <div class="toast"></div>
+    </div>
+
+    <header>
+      <div class="container header-top">
+        <div class="left">
+         <p> Free shipping, 30-day return or refund guarantee.</p>
+        </div>
+
+        <div class="right">
+          <a href="">SING IN</a>
+          <a href="">SING UP</a>
+        </div>
+      </div>
+
+      <div class="container navbar">
+
+        <nav>
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/product.html">PRODUCTS</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+            <li ><a href="addToCart.html" class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> 0</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+
+
+        <!-- ========== Start Home Hero Section ========== -->
+    <main>
+          <section class="section-hero">
+            <div class="container grid grid-two--cols">
+              
+              <div class="section-hero--content">
+                <p class="hero-subheading">Explore the Latest in Tech Industries</p>
+                <h1 class="hero-heading">
+                  Your Destination for Cutting-Edge Gadgets!
+                </h1>
+                <p class="hero-para">
+                  Welcome to Thapa eComStore, your ultimate destination for
+                  cutting-edge gadgets! Explore the latest in tech innovation and
+                  style with us. Shop now and discover a world of possibilities!
+                </p>
+                <div class="hero-btn">
+                  <a href="products.html" class="btn">Explore Our Products</a>
+                </div>
+              </div>
+              <div
+                class="hero-img"
+                data-aos="fade-up"
+                data-aos-delay="600"
+              >
+                <figure>
+                  <img
+                    src="./images/heroSection.svg"
+                    alt="coding languages using html css js"
+                  />
+                </figure>
+              </div>
+            </div>
+    
+          </section>
+    </main>
+        <!-- ========== End Home Hero Section ========== -->
+
+  <!-- ========== Start Section product  ========== -->
+        
+    <section class="section-product">
+
+    <div class="container">
+      <h2 class="commonHeading">Checkout Siva Store</h2>
+    </div>
+
+    <div class="container">
+      <div class="productContainer grid grid-three--cols">
+
+      </div>
+    </div>
+    </section>
+
+    <!-- ========== Start template section  ========== -->
+    
+    <template class="section-template">
+
+      <div class="product" id="cardValue">
+        <article>
+          <span class="category"></span>
+          <div class="image">
+            <img src="" alt="" class="img">
+          </div>
+          <h3 class="heading"></h3>
+          <div class="startRating">*****</div>
+          <div class="para"></div>
+          <div class="price">
+            <p class="discountPrice"></p>
+            <p ><s class="orginalPrice"></s></p>
+          </div>
+
+          <div class="stockDiv">
+            <span>Total Stocks Available : </span>
+            <span class="stock"></span>
+          </div>
+
+          <div class="quantityDiv">
+            <p>Quantity(Pieces) </p>
+            <div class="button">
+              <button class="btnIncreament">+</button>
+              <h6 class="quantity">1</h6>
+              <button class="btnDecreament">-</button>
+            </div>
+          </div>
+
+          <button class="btn">Add To Cart</button>
+
+        </article>
+      </div>
+    </template>
+    <!-- ========== End template section  ========== -->
+  
+  <!-- ========== End Section product  ========== -->
+
+
+  <!-- ========== Start why choose section ========== -->
+  <section class="section-why--choose">
+
+    <div class="container">
+      <h2 class="commonHeading">Why Choose Siva Store</h2>
+      <p class="commonPara">Choose Siva for a holistic learning experience that empowers you to achieve your goals.</p>
+    </div>
+
+    <div class="container">
+
+      <div class="why gird grid-three--cols">
+        
+      <div class="left">
+
+        <div>
+          <h3>1</h3>
+          <h4>Wide Selection</h4>
+          <p>Siva Store offers a diverse range of gadgets from smartphones to smart home devices. Ensuring you find what you need to elevate your lifestyle and meet your tech requirements.</p>
+        </div>
+
+        <div>
+          <h3>2</h3>
+          <h4>Quantity Assurance</h4>
+          <p>Every gadget at Siva Store undergoes rigorous quality checks guranteeing reliability and performance. SO you can shop with confidence knowing you're getting the best</p>
+        </div>
+
+        <div>
+          <h3>3</h3>
+          <h4>Competitive Prices</h4>
+          <p>Enjoy great value with Siva Store's competitive prices on high-quality gadgets. Making top-of-the-line technology accessible to all without compromising on quality or performance</p>
+        </div>
+
+      </div>
+
+      <div class="img">
+
+        <img src="./public/images/ecompost.png" alt="logo png">
+      </div>
+      
+      <div class="right">
+
+        <div>
+          <h3>4</h3>
+          <h4>Expert Guidance</h4>
+          <p>Our knowledgeable staff provides expert guidance,helping you choose the right gadget to meet your needs and preferences ensuring you ake informed decisions every step of the way.</p>
+        </div>
+
+        <div>
+          <h3>5</h3>
+          <h4>convenient Shopping</h4>
+          <p>With Siva Store, shopping for gadgets is easy and convenient. Our user-friendly website and secure payment options ensure a seamless experience from browsing to checkout. all fromm the comfort of your home.</p>
+        </div>
+
+        <div>
+          <h3>6</h3>
+          <h4>Excellent Service</h4>
+          <p>Siva Store is committed to providing excellent service to our customers from prompt assistance with inquiries to efficient handling of orders and deliveries we prioritize your satisfaction every step of the way.</p>
+        </div>
+
+
+      </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ========== End why choose section ========== -->
+  
+  <!-- ========== Start contact section ========== -->
+  
+  <section class="section-footer">
+
+    <div class="container grid grid-four--cols">
+
+        <div class="name">
+          Welcome to Siva EcomStore. Your ultimate destination is choose best gadget as your wish.
+        </div>
+
+        <div class="flex">
+
+           <h2>SHOPPING</h2>
+           <ul>
+            <li>Computer Store</li>
+            <li>Laptop Store</li>
+            <li>Accessories</li>
+            <li>Sales & Discount</li>
+           </ul>
+        </div>
+
+        <div class="flex">
+
+          <h2>EXPERIENCE</h2>
+          <ul>
+            <li>Contact us</li>
+            <li>Payment Method</li>
+            <li>Delivery</li>
+            <li>Return and Exchange</li>
+          </ul>
+        </div>
+
+        <div class="flex">
+          <h2>NEWSLETTER</h2>
+          <p>Be the first buyer</p>
+          <button>Contact email</button>
+        </div>
+    </div>
+  </section>
+  <!-- ========== End contact section ========== -->
+  
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

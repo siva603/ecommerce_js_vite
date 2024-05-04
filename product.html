@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <meta name="description" content="This is  demo ecommerce project. It includes server html files and  css file. And also it is resposive website">
+
+    <meta name="keywords" content="home,about,products,contact,addToCart">
+
+    <meta name="robots" content="index, follow">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>product</title>
+</head>
+<body>
+    
+    <header>
+  
+        <div class="container navbar"> 
+          <nav>
+            <ul>
+              <li><a href="/">HOME</a></li>
+              <li><a href="/about.html">ABOUT</a></li>
+              <li><a href="/product.html">PRODUCTS</a></li>
+              <li><a href="/contact.html">CONTACT</a></li>
+              <li ><a href="addToCart.html" class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> 0</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </header>
+
+    
+  <!-- ========== Start Section product  ========== -->
+        
+  <section class="section-product">
+
+    <div class="container">
+      <h2 class="commonHeading">Checkout Siva Store</h2>
+    </div>
+
+    <div class="container">
+      <div class="productContainer grid grid-three--cols">
+
+      </div>
+    </div>
+    </section>
+
+    <!-- ========== Start template section  ========== -->
+    
+    <template class="section-template">
+
+      <div class="product" id="cardValue">
+        <article>
+          <span class="category"></span>
+          <div class="image">
+            <img src="" alt="" class="img">
+          </div>
+          <h3 class="heading"></h3>
+          <div class="startRating">*****</div>
+          <div class="para"></div>
+          <div class="price">
+            <p class="discountPrice"></p>
+            <p ><s class="orginalPrice"></s></p>
+          </div>
+
+          <div class="stockDiv">
+            <span>Total Stocks Available : </span>
+            <span class="stock"></span>
+          </div>
+
+          <div class="quantityDiv">
+            <p>Quantity(Pieces) </p>
+            <div class="button">
+              <button class="btnIncreament">+</button>
+              <h6 class="quantity">1</h6>
+              <button class="btnDecreament">-</button>
+            </div>
+          </div>
+
+          <button class="btn">Add To Cart</button>
+
+        </article>
+      </div>
+    </template>
+    <!-- ========== End template section  ========== -->
+  
+  <!-- ========== End Section product  ========== -->
+
+  <!-- ========== Start footer section ========== -->
+  
+  <section class="section-footer">
+
+    <div class="container grid grid-four--cols">
+
+        <div class="name">
+          Welcome to Siva EcomStore. Your ultimate destination is choose best gadget as your wish.
+        </div>
+
+        <div class="flex">
+
+           <h2>SHOPPING</h2>
+           <ul>
+            <li>Computer Store</li>
+            <li>Laptop Store</li>
+            <li>Accessories</li>
+            <li>Sales & Discount</li>
+           </ul>
+        </div>
+
+        <div class="flex">
+
+          <h2>EXPERIENCE</h2>
+          <ul>
+            <li>Contact us</li>
+            <li>Payment Method</li>
+            <li>Delivery</li>
+            <li>Return and Exchange</li>
+          </ul>
+        </div>
+
+        <div class="flex">
+          <h2>NEWSLETTER</h2>
+          <p>Be the first buyer</p>
+          <button>Contact email</button>
+        </div>
+    </div>
+  </section>
+  <!-- ========== End footer section ========== -->
+
+   
+  <script type="module" src="/main.js"></script>
+  
+</body>
+</html>
