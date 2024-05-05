@@ -12,8 +12,22 @@ let toast = document.querySelector(".toast")
 let loaderContainer = document.querySelector(".loader-container");
 // let root = document.documentElement;
 
+let value = 0;
+
+setTimeout(()=>{
+  value = 1;
+},10000)
+
 window.addEventListener('load', () =>{
-  loaderContainer.classList.add('hidden');
+ const load_name = setInterval(()=>{
+    if(value == 1){
+    loaderContainer.classList.add("hidden");
+    }
+  },1000)
+
+  if(value == 1){
+    load_name.clearInterval();
+  }
 })
 
 const showProduct = (item) =>{

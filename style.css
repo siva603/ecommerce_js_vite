@@ -860,6 +860,9 @@ main .hero-img figure img{
           font-size: 31.25%; 
       }
 
+      .loader-container svg text {
+        font-size: 25rem;
+      }
       body {
         margin: 0 auto;
         padding: 0 1rem;
@@ -944,6 +947,10 @@ main .hero-img figure img{
       3 px =  31.25%
       */
       font-size: 18.75%; 
+  }
+
+  .loader-container svg text {
+    font-size: 45rem;
   }
 
   body {
